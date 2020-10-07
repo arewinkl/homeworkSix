@@ -1,0 +1,70 @@
+h1 {
+    font-size: 80px;
+    text-align: center;
+    text-decoration: underline;
+    font-variant: small-caps;
+    background-color:darkblue;
+    color: whitesmoke;
+  }
+h2{
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+    color: black;
+
+}
+.table {
+  
+  padding-left: 20%;
+  font-size: 30px;
+  
+}
+  *,
+*::before,
+*::after {
+    box-sizing: border-box;
+  padding-right: 10;
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+}
+
+input {
+  height: 50px;
+  width: 100%;
+  padding: 2px;
+  margin-top: 10px;
+  font-size: 2.4em;
+  border: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: white;
+  }
+
+li {
+  height: 50px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+  background-color: darkblue;
+  color: white;
+  font-size: 1.5em;
+  line-height: 1.5;
+  margin-right: 60%;
+}
+
+li button {
+  float: right;
+  border: none;
+  height: 40px;
+  cursor: pointer;
+  background-color: lightskyblue;
+  color: white;
+  font-size: 1em;
+}
+

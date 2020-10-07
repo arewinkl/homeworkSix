@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Weather Forecaster</h1>
+    </header>
+    <div class="city">
+        <form id="weather-form" method="POST">
+          <label for="city-text">check the weather:</label>
+          <input type="text" placeholder="choose a city" name="city-text" id="city-text" />
+        </form>
+        <p>Favorite Cities: <span id="city-count"></span></p>
+        <ul id="city-list"></ul>
+      </div>
+
+      <div>
+        <b>Today's Weather </b>:
+        <ul>
+            <li id="temperature">Temperature:</li>
+            <li id="humid">Humidity:</li>
+            <li id="wind">Wind Speed:</li>
+            <li id="feels">Feels Like:</li>
+            <li id="visibility">Visibility:</li>
+        </ul>
+    </div>
+    <h2>Your Five Day Forecast:</h2>
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">monday</th>
+          <th scope="col">tuesday</th>
+          <th scope="col">wednesday</th>
+          <th scope="col">thursday</th>
+          <th scope="col">friday</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row"></th>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <th scope="row"></th>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <th scope="row"></th>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    
+    <script src="script.js"></script>
+    <script src="apiScript.js"></script>
+    <script type="text/javascript"></script>
+</body>
+</html>
